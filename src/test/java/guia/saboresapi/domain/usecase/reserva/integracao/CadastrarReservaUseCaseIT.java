@@ -1,9 +1,10 @@
 package guia.saboresapi.domain.usecase.reserva.integracao;
 
-import com.fiap.tc.restaurantes.domain.entity.Reserva;
-import com.fiap.tc.restaurantes.domain.exception.mesa.MesaNotFoundException;
-import com.fiap.tc.restaurantes.domain.exception.usuario.UsuarioNotFoundException;
-import com.fiap.tc.restaurantes.domain.usecase.reserva.CadastrarReservaUseCase;
+
+import guia.saboresapi.domain.entity.Reserva;
+import guia.saboresapi.domain.exception.mesa.MesaNotFoundException;
+import guia.saboresapi.domain.exception.usuario.UsuarioNotFoundException;
+import guia.saboresapi.domain.usecase.reserva.CadastrarReservaUseCase;
 import guia.saboresapi.utils.reserva.ReservaHelper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

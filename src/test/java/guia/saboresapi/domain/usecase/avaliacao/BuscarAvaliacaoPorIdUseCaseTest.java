@@ -2,6 +2,7 @@ package guia.saboresapi.domain.usecase.avaliacao;
 
 
 import guia.saboresapi.domain.entity.Avaliacao;
+import guia.saboresapi.domain.exception.avaliacao.AvaliacaoNotFoundException;
 import guia.saboresapi.domain.gateway.avaliacao.BuscarAvaliacaoPorIdInterface;
 import guia.saboresapi.utils.avaliacao.AvaliacaoHelper;
 import org.junit.jupiter.api.AfterEach;

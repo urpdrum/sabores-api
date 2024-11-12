@@ -2,6 +2,7 @@ package guia.saboresapi.application.reserva;
 
 import guia.saboresapi.application.handler.GlobalExceptionHandler;
 import guia.saboresapi.domain.entity.Reserva;
+import guia.saboresapi.domain.exception.reserva.ReservaNotFoundException;
 import guia.saboresapi.domain.input.reserva.AtualizarReservaRequest;
 import guia.saboresapi.domain.mapper.reserva.ReservaMapper;
 import guia.saboresapi.domain.usecase.reserva.AtualizarReservaUseCase;

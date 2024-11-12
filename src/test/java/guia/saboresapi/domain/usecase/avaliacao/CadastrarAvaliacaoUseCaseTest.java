@@ -1,6 +1,9 @@
 package guia.saboresapi.domain.usecase.avaliacao;
 
 
+import guia.saboresapi.domain.entity.Avaliacao;
+import guia.saboresapi.domain.exception.restaurante.RestauranteNotFoundException;
+import guia.saboresapi.domain.exception.usuario.UsuarioNotFoundException;
 import guia.saboresapi.domain.gateway.avaliacao.CadastrarAvaliacaoInterface;
 import guia.saboresapi.domain.usecase.restaurante.BuscarRestaurantePorIdUseCase;
 import guia.saboresapi.domain.usecase.usuario.BuscarUsuarioPorIdUseCase;

@@ -1,6 +1,9 @@
 package guia.saboresapi.domain.usecase.reserva;
 
 
+import guia.saboresapi.domain.entity.Reserva;
+import guia.saboresapi.domain.exception.mesa.MesaNotFoundException;
+import guia.saboresapi.domain.exception.usuario.UsuarioNotFoundException;
 import guia.saboresapi.domain.gateway.reserva.CadastrarReservaInterface;
 import guia.saboresapi.domain.usecase.mesa.BuscarMesaPorIdUseCase;
 import guia.saboresapi.domain.usecase.usuario.BuscarUsuarioPorIdUseCase;

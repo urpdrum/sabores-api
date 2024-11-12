@@ -1,8 +1,9 @@
 package guia.saboresapi.domain.usecase.reserva.integracao;
 
-import com.fiap.tc.restaurantes.domain.entity.Reserva;
-import com.fiap.tc.restaurantes.domain.exception.reserva.ReservaNotFoundException;
-import com.fiap.tc.restaurantes.domain.usecase.reserva.BuscarReservaPorIdUseCase;
+
+import guia.saboresapi.domain.entity.Reserva;
+import guia.saboresapi.domain.exception.reserva.ReservaNotFoundException;
+import guia.saboresapi.domain.usecase.reserva.BuscarReservaPorIdUseCase;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

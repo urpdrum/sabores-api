@@ -1,6 +1,7 @@
 package guia.saboresapi.domain.usecase.reserva.integracao;
 
-import com.fiap.tc.restaurantes.domain.usecase.reserva.BuscarReservasPorMesaUseCase;
+
+import guia.saboresapi.domain.usecase.reserva.BuscarReservasPorMesaUseCase;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

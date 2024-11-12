@@ -1,6 +1,5 @@
 package guia.saboresapi.infra.repository;
 
-=
 import guia.saboresapi.infra.entity.MesaEntity;
 import guia.saboresapi.utils.mesa.MesaHelper;
 import org.junit.jupiter.api.AfterEach;

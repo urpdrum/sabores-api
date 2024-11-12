@@ -1,5 +1,7 @@
 package guia.saboresapi.application.avaliacao;
 
+import guia.saboresapi.domain.exception.restaurante.RestauranteNotFoundException;
+import guia.saboresapi.domain.exception.usuario.UsuarioNotFoundException;
 import guia.saboresapi.utils.avaliacao.AvaliacaoHelper;
 import guia.saboresapi.utils.generic.JsonStringHelper;
 import guia.saboresapi.application.handler.GlobalExceptionHandler;

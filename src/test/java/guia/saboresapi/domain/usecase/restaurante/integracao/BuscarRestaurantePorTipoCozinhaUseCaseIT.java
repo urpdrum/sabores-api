@@ -1,7 +1,8 @@
 package guia.saboresapi.domain.usecase.restaurante.integracao;
 
-import com.fiap.tc.restaurantes.domain.entity.Restaurante;
-import com.fiap.tc.restaurantes.domain.usecase.restaurante.BuscarRestaurantePorTipoCozinhaUseCase;
+
+import guia.saboresapi.domain.entity.Restaurante;
+import guia.saboresapi.domain.usecase.restaurante.BuscarRestaurantePorTipoCozinhaUseCase;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,8 @@
 package guia.saboresapi.domain.usecase.usuario.integracao;
 
-import com.fiap.tc.restaurantes.domain.entity.Usuario;
-import com.fiap.tc.restaurantes.domain.usecase.usuario.ListarUsuariosUseCase;
+
+import guia.saboresapi.domain.entity.Usuario;
+import guia.saboresapi.domain.usecase.usuario.ListarUsuariosUseCase;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

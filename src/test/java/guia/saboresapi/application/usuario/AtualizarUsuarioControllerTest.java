@@ -3,6 +3,7 @@ package guia.saboresapi.application.usuario;
 
 import guia.saboresapi.application.handler.GlobalExceptionHandler;
 import guia.saboresapi.domain.entity.Usuario;
+import guia.saboresapi.domain.exception.usuario.UsuarioNotFoundException;
 import guia.saboresapi.domain.input.usuario.AtualizarUsuarioRequest;
 import guia.saboresapi.domain.mapper.usuario.UsuarioMapper;
 import guia.saboresapi.domain.output.usuario.UsuarioResponse;

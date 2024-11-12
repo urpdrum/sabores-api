@@ -1,6 +1,7 @@
 package guia.saboresapi.domain.usecase.avaliacao.integracao;
 
-import com.fiap.tc.restaurantes.domain.usecase.avaliacao.BuscarAvaliacoesPorRestauranteUseCase;
+
+import guia.saboresapi.domain.usecase.avaliacao.BuscarAvaliacoesPorRestauranteUseCase;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

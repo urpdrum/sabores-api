@@ -1,9 +1,9 @@
 package guia.saboresapi.domain.usecase.reserva.integracao;
 
-import com.fiap.tc.restaurantes.domain.entity.Reserva;
-import com.fiap.tc.restaurantes.domain.enums.StatusReservaEnum;
-import com.fiap.tc.restaurantes.domain.exception.reserva.ReservaNotFoundException;
-import com.fiap.tc.restaurantes.domain.usecase.reserva.AtualizarReservaUseCase;
+import guia.saboresapi.domain.entity.Reserva;
+import guia.saboresapi.domain.enums.StatusReservaEnum;
+import guia.saboresapi.domain.exception.reserva.ReservaNotFoundException;
+import guia.saboresapi.domain.usecase.reserva.AtualizarReservaUseCase;
 import guia.saboresapi.utils.reserva.ReservaHelper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

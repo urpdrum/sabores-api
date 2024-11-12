@@ -1,6 +1,7 @@
 package guia.saboresapi.application.avaliacao;
 
 
+import guia.saboresapi.domain.exception.avaliacao.AvaliacaoNotFoundException;
 import guia.saboresapi.utils.avaliacao.AvaliacaoHelper;
 import guia.saboresapi.application.handler.GlobalExceptionHandler;
 import guia.saboresapi.domain.entity.Avaliacao;

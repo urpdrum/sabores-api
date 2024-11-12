@@ -1,9 +1,10 @@
 package guia.saboresapi.domain.usecase.avaliacao.integracao;
 
-import com.fiap.tc.restaurantes.domain.entity.Avaliacao;
-import com.fiap.tc.restaurantes.domain.exception.restaurante.RestauranteNotFoundException;
-import com.fiap.tc.restaurantes.domain.exception.usuario.UsuarioNotFoundException;
-import com.fiap.tc.restaurantes.domain.usecase.avaliacao.CadastrarAvaliacaoUseCase;
+
+import guia.saboresapi.domain.entity.Avaliacao;
+import guia.saboresapi.domain.exception.restaurante.RestauranteNotFoundException;
+import guia.saboresapi.domain.exception.usuario.UsuarioNotFoundException;
+import guia.saboresapi.domain.usecase.avaliacao.CadastrarAvaliacaoUseCase;
 import guia.saboresapi.utils.avaliacao.AvaliacaoHelper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

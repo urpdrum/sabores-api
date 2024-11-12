@@ -1,6 +1,7 @@
 package guia.saboresapi.application.restaurante.integracao;
 
-import com.fiap.tc.restaurantes.domain.input.restaurante.CadastrarRestauranteRequest;
+
+import guia.saboresapi.domain.input.restaurante.CadastrarRestauranteRequest;
 import guia.saboresapi.utils.restaurante.RestauranteHelper;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeEach;

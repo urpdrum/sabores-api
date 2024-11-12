@@ -1,6 +1,7 @@
 package guia.saboresapi.domain.usecase.restaurante;
 
 
+import guia.saboresapi.domain.entity.Endereco;
 import guia.saboresapi.domain.entity.Restaurante;
 import guia.saboresapi.domain.exception.restaurante.RestauranteNotFoundException;
 import guia.saboresapi.domain.gateway.restaurante.AtualizarRestauranteInterface;

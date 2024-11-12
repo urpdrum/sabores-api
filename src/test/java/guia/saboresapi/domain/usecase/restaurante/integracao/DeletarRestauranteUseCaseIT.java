@@ -1,7 +1,8 @@
 package guia.saboresapi.domain.usecase.restaurante.integracao;
 
-import com.fiap.tc.restaurantes.domain.exception.restaurante.RestauranteNotFoundException;
-import com.fiap.tc.restaurantes.domain.usecase.restaurante.DeletarRestauranteUseCase;
+
+import guia.saboresapi.domain.exception.restaurante.RestauranteNotFoundException;
+import guia.saboresapi.domain.usecase.restaurante.DeletarRestauranteUseCase;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

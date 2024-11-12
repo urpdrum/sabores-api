@@ -1,7 +1,8 @@
 package guia.saboresapi.domain.usecase.avaliacao.integracao;
 
-import com.fiap.tc.restaurantes.domain.exception.avaliacao.AvaliacaoNotFoundException;
-import com.fiap.tc.restaurantes.domain.usecase.avaliacao.DeletarAvaliacaoUseCase;
+
+import guia.saboresapi.domain.exception.avaliacao.AvaliacaoNotFoundException;
+import guia.saboresapi.domain.usecase.avaliacao.DeletarAvaliacaoUseCase;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

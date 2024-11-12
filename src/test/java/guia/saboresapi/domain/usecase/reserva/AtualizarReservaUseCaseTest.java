@@ -1,6 +1,9 @@
 package guia.saboresapi.domain.usecase.reserva;
 
 
+import guia.saboresapi.domain.entity.Reserva;
+import guia.saboresapi.domain.enums.StatusReservaEnum;
+import guia.saboresapi.domain.exception.reserva.ReservaNotFoundException;
 import guia.saboresapi.domain.gateway.reserva.AtualizarReservaInterface;
 import guia.saboresapi.utils.reserva.ReservaHelper;
 import org.junit.jupiter.api.AfterEach;
