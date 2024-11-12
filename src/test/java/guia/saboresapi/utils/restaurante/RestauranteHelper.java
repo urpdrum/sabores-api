@@ -1,13 +1,15 @@
 package guia.saboresapi.utils.restaurante;
 
-import com.fiap.tc.restaurantes.domain.entity.Endereco;
-import com.fiap.tc.restaurantes.domain.entity.Restaurante;
-import com.fiap.tc.restaurantes.domain.enums.TipoCozinhaEnum;
-import com.fiap.tc.restaurantes.domain.input.restaurante.AtualizarRestauranteRequest;
-import com.fiap.tc.restaurantes.domain.input.restaurante.CadastrarRestauranteRequest;
-import com.fiap.tc.restaurantes.domain.output.restaurante.RestauranteResponse;
-import com.fiap.tc.restaurantes.infra.entity.EnderecoEntity;
-import com.fiap.tc.restaurantes.infra.entity.RestauranteEntity;
+
+
+import guia.saboresapi.domain.entity.Endereco;
+import guia.saboresapi.domain.entity.Restaurante;
+import guia.saboresapi.domain.enums.TipoCozinhaEnum;
+import guia.saboresapi.domain.input.restaurante.AtualizarRestauranteRequest;
+import guia.saboresapi.domain.input.restaurante.CadastrarRestauranteRequest;
+import guia.saboresapi.domain.output.restaurante.RestauranteResponse;
+import guia.saboresapi.infra.entity.EnderecoEntity;
+import guia.saboresapi.infra.entity.RestauranteEntity;
 
 import java.util.List;
 

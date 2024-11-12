@@ -1,10 +1,11 @@
 package guia.saboresapi.application.usuario;
 
-import com.fiap.tc.restaurantes.domain.entity.Usuario;
-import com.fiap.tc.restaurantes.domain.input.usuario.CadastrarUsuarioRequest;
-import com.fiap.tc.restaurantes.domain.mapper.usuario.UsuarioMapper;
-import com.fiap.tc.restaurantes.domain.output.usuario.UsuarioResponse;
-import com.fiap.tc.restaurantes.domain.usecase.usuario.CadastrarUsuarioUseCase;
+
+import guia.saboresapi.domain.entity.Usuario;
+import guia.saboresapi.domain.input.usuario.CadastrarUsuarioRequest;
+import guia.saboresapi.domain.mapper.usuario.UsuarioMapper;
+import guia.saboresapi.domain.output.usuario.UsuarioResponse;
+import guia.saboresapi.domain.usecase.usuario.CadastrarUsuarioUseCase;
 import guia.saboresapi.utils.generic.JsonStringHelper;
 import guia.saboresapi.utils.usuario.UsuarioHelper;
 import org.junit.jupiter.api.AfterEach;

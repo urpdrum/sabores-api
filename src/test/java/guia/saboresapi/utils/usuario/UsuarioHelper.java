@@ -1,11 +1,12 @@
 package guia.saboresapi.utils.usuario;
 
-import com.fiap.tc.restaurantes.domain.entity.Usuario;
-import com.fiap.tc.restaurantes.domain.input.usuario.AtualizarUsuarioRequest;
-import com.fiap.tc.restaurantes.domain.input.usuario.CadastrarUsuarioRequest;
-import com.fiap.tc.restaurantes.domain.output.usuario.UsuarioDeletadoResponse;
-import com.fiap.tc.restaurantes.domain.output.usuario.UsuarioResponse;
-import com.fiap.tc.restaurantes.infra.entity.UsuarioEntity;
+
+import guia.saboresapi.domain.entity.Usuario;
+import guia.saboresapi.domain.input.usuario.AtualizarUsuarioRequest;
+import guia.saboresapi.domain.input.usuario.CadastrarUsuarioRequest;
+import guia.saboresapi.domain.output.usuario.UsuarioDeletadoResponse;
+import guia.saboresapi.domain.output.usuario.UsuarioResponse;
+import guia.saboresapi.infra.entity.UsuarioEntity;
 
 public class UsuarioHelper {
   public static UsuarioDeletadoResponse gerarUsuarioDeletadoReponse() {

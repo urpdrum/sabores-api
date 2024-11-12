@@ -1,10 +1,11 @@
 package guia.saboresapi.utils.avaliacao;
 
-import com.fiap.tc.restaurantes.domain.entity.Avaliacao;
-import com.fiap.tc.restaurantes.domain.input.avaliacao.AtualizarAvaliacaoRequest;
-import com.fiap.tc.restaurantes.domain.input.avaliacao.CadastrarAvaliacaoRequest;
-import com.fiap.tc.restaurantes.domain.output.avaliacao.AvaliacaoResponse;
-import com.fiap.tc.restaurantes.infra.entity.AvaliacaoEntity;
+
+import guia.saboresapi.domain.entity.Avaliacao;
+import guia.saboresapi.domain.input.avaliacao.AtualizarAvaliacaoRequest;
+import guia.saboresapi.domain.input.avaliacao.CadastrarAvaliacaoRequest;
+import guia.saboresapi.domain.output.avaliacao.AvaliacaoResponse;
+import guia.saboresapi.infra.entity.AvaliacaoEntity;
 import guia.saboresapi.utils.restaurante.RestauranteHelper;
 import guia.saboresapi.utils.usuario.UsuarioHelper;
 

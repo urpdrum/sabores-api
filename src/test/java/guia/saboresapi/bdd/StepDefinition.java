@@ -1,18 +1,19 @@
 package guia.saboresapi.bdd;
 
-import com.fiap.tc.restaurantes.domain.entity.Usuario;
-import com.fiap.tc.restaurantes.domain.input.avaliacao.AtualizarAvaliacaoRequest;
-import com.fiap.tc.restaurantes.domain.input.mesa.AtualizarMesaRequest;
-import com.fiap.tc.restaurantes.domain.input.mesa.CadastrarMesaRequest;
-import com.fiap.tc.restaurantes.domain.input.restaurante.AtualizarRestauranteRequest;
-import com.fiap.tc.restaurantes.domain.input.restaurante.CadastrarRestauranteRequest;
-import com.fiap.tc.restaurantes.domain.input.usuario.AtualizarUsuarioRequest;
-import com.fiap.tc.restaurantes.domain.input.usuario.CadastrarUsuarioRequest;
-import com.fiap.tc.restaurantes.domain.output.avaliacao.AvaliacaoResponse;
-import com.fiap.tc.restaurantes.domain.output.mesa.MesaResponse;
-import com.fiap.tc.restaurantes.domain.output.reserva.ReservaResponse;
-import com.fiap.tc.restaurantes.domain.output.restaurante.RestauranteResponse;
-import com.fiap.tc.restaurantes.domain.output.usuario.UsuarioResponse;
+
+import guia.saboresapi.domain.entity.Usuario;
+import guia.saboresapi.domain.input.avaliacao.AtualizarAvaliacaoRequest;
+import guia.saboresapi.domain.input.mesa.AtualizarMesaRequest;
+import guia.saboresapi.domain.input.mesa.CadastrarMesaRequest;
+import guia.saboresapi.domain.input.restaurante.AtualizarRestauranteRequest;
+import guia.saboresapi.domain.input.restaurante.CadastrarRestauranteRequest;
+import guia.saboresapi.domain.input.usuario.AtualizarUsuarioRequest;
+import guia.saboresapi.domain.input.usuario.CadastrarUsuarioRequest;
+import guia.saboresapi.domain.output.avaliacao.AvaliacaoResponse;
+import guia.saboresapi.domain.output.mesa.MesaResponse;
+import guia.saboresapi.domain.output.reserva.ReservaResponse;
+import guia.saboresapi.domain.output.restaurante.RestauranteResponse;
+import guia.saboresapi.domain.output.usuario.UsuarioResponse;
 import guia.saboresapi.utils.avaliacao.AvaliacaoHelper;
 import guia.saboresapi.utils.mesa.MesaHelper;
 import guia.saboresapi.utils.reserva.ReservaHelper;

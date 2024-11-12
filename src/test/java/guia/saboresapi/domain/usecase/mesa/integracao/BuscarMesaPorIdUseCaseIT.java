@@ -1,8 +1,9 @@
 package guia.saboresapi.domain.usecase.mesa.integracao;
 
-import com.fiap.tc.restaurantes.domain.entity.Mesa;
-import com.fiap.tc.restaurantes.domain.exception.mesa.MesaNotFoundException;
-import com.fiap.tc.restaurantes.domain.usecase.mesa.BuscarMesaPorIdUseCase;
+
+import guia.saboresapi.domain.entity.Mesa;
+import guia.saboresapi.domain.exception.mesa.MesaNotFoundException;
+import guia.saboresapi.domain.usecase.mesa.BuscarMesaPorIdUseCase;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

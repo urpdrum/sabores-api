@@ -1,11 +1,12 @@
 package guia.saboresapi.utils.reserva;
 
-import com.fiap.tc.restaurantes.domain.entity.Reserva;
-import com.fiap.tc.restaurantes.domain.enums.StatusReservaEnum;
-import com.fiap.tc.restaurantes.domain.input.reserva.AtualizarReservaRequest;
-import com.fiap.tc.restaurantes.domain.input.reserva.CadastrarReservaRequest;
-import com.fiap.tc.restaurantes.domain.output.reserva.ReservaResponse;
-import com.fiap.tc.restaurantes.infra.entity.ReservaEntity;
+
+import guia.saboresapi.domain.entity.Reserva;
+import guia.saboresapi.domain.enums.StatusReservaEnum;
+import guia.saboresapi.domain.input.reserva.AtualizarReservaRequest;
+import guia.saboresapi.domain.input.reserva.CadastrarReservaRequest;
+import guia.saboresapi.domain.output.reserva.ReservaResponse;
+import guia.saboresapi.infra.entity.ReservaEntity;
 import guia.saboresapi.utils.mesa.MesaHelper;
 import guia.saboresapi.utils.usuario.UsuarioHelper;
 

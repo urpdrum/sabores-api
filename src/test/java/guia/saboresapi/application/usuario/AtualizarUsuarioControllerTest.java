@@ -1,12 +1,12 @@
 package guia.saboresapi.application.usuario;
 
-import com.fiap.tc.restaurantes.application.handler.GlobalExceptionHandler;
-import com.fiap.tc.restaurantes.domain.entity.Usuario;
-import com.fiap.tc.restaurantes.domain.exception.usuario.UsuarioNotFoundException;
-import com.fiap.tc.restaurantes.domain.input.usuario.AtualizarUsuarioRequest;
-import com.fiap.tc.restaurantes.domain.mapper.usuario.UsuarioMapper;
-import com.fiap.tc.restaurantes.domain.output.usuario.UsuarioResponse;
-import com.fiap.tc.restaurantes.domain.usecase.usuario.AtualizarUsuarioUseCase;
+
+import guia.saboresapi.application.handler.GlobalExceptionHandler;
+import guia.saboresapi.domain.entity.Usuario;
+import guia.saboresapi.domain.input.usuario.AtualizarUsuarioRequest;
+import guia.saboresapi.domain.mapper.usuario.UsuarioMapper;
+import guia.saboresapi.domain.output.usuario.UsuarioResponse;
+import guia.saboresapi.domain.usecase.usuario.AtualizarUsuarioUseCase;
 import guia.saboresapi.utils.generic.JsonStringHelper;
 import guia.saboresapi.utils.usuario.UsuarioHelper;
 import org.junit.jupiter.api.AfterEach;

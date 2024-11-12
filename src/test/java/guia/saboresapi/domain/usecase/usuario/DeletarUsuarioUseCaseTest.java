@@ -1,14 +1,15 @@
 package guia.saboresapi.domain.usecase.usuario;
 
-import com.fiap.tc.restaurantes.domain.entity.Avaliacao;
-import com.fiap.tc.restaurantes.domain.entity.Reserva;
-import com.fiap.tc.restaurantes.domain.entity.Usuario;
-import com.fiap.tc.restaurantes.domain.exception.usuario.UsuarioNotFoundException;
-import com.fiap.tc.restaurantes.domain.gateway.usuario.DeletarUsuarioInterface;
-import com.fiap.tc.restaurantes.domain.usecase.avaliacao.BuscarAvaliacoesPorUsuarioUseCase;
-import com.fiap.tc.restaurantes.domain.usecase.avaliacao.DeletarAvaliacaoUseCase;
-import com.fiap.tc.restaurantes.domain.usecase.reserva.BuscarReservasPorUsuarioUseCase;
-import com.fiap.tc.restaurantes.domain.usecase.reserva.DeletarReservaUseCase;
+
+import guia.saboresapi.domain.entity.Avaliacao;
+import guia.saboresapi.domain.entity.Reserva;
+import guia.saboresapi.domain.entity.Usuario;
+import guia.saboresapi.domain.exception.usuario.UsuarioNotFoundException;
+import guia.saboresapi.domain.gateway.usuario.DeletarUsuarioInterface;
+import guia.saboresapi.domain.usecase.avaliacao.BuscarAvaliacoesPorUsuarioUseCase;
+import guia.saboresapi.domain.usecase.avaliacao.DeletarAvaliacaoUseCase;
+import guia.saboresapi.domain.usecase.reserva.BuscarReservasPorUsuarioUseCase;
+import guia.saboresapi.domain.usecase.reserva.DeletarReservaUseCase;
 import guia.saboresapi.utils.avaliacao.AvaliacaoHelper;
 import guia.saboresapi.utils.reserva.ReservaHelper;
 import guia.saboresapi.utils.usuario.UsuarioHelper;

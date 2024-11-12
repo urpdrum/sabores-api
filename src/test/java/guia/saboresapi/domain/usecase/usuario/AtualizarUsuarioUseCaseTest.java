@@ -1,8 +1,9 @@
 package guia.saboresapi.domain.usecase.usuario;
 
-import com.fiap.tc.restaurantes.domain.entity.Usuario;
-import com.fiap.tc.restaurantes.domain.exception.usuario.UsuarioNotFoundException;
-import com.fiap.tc.restaurantes.domain.gateway.usuario.AtualizarUsuarioInterface;
+
+import guia.saboresapi.domain.entity.Usuario;
+import guia.saboresapi.domain.exception.usuario.UsuarioNotFoundException;
+import guia.saboresapi.domain.gateway.usuario.AtualizarUsuarioInterface;
 import guia.saboresapi.utils.usuario.UsuarioHelper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

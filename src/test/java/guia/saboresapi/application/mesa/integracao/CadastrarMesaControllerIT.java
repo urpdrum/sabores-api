@@ -1,6 +1,7 @@
 package guia.saboresapi.application.mesa.integracao;
 
-import com.fiap.tc.restaurantes.domain.input.mesa.CadastrarMesaRequest;
+
+import guia.saboresapi.domain.input.mesa.CadastrarMesaRequest;
 import guia.saboresapi.utils.mesa.MesaHelper;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,10 +1,11 @@
 package guia.saboresapi.utils.mesa;
 
-import com.fiap.tc.restaurantes.domain.entity.Mesa;
-import com.fiap.tc.restaurantes.domain.input.mesa.AtualizarMesaRequest;
-import com.fiap.tc.restaurantes.domain.input.mesa.CadastrarMesaRequest;
-import com.fiap.tc.restaurantes.domain.output.mesa.MesaResponse;
-import com.fiap.tc.restaurantes.infra.entity.MesaEntity;
+
+import guia.saboresapi.domain.entity.Mesa;
+import guia.saboresapi.domain.input.mesa.AtualizarMesaRequest;
+import guia.saboresapi.domain.input.mesa.CadastrarMesaRequest;
+import guia.saboresapi.domain.output.mesa.MesaResponse;
+import guia.saboresapi.infra.entity.MesaEntity;
 import guia.saboresapi.utils.restaurante.RestauranteHelper;
 
 public class MesaHelper {

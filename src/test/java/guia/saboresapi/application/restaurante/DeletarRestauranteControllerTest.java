@@ -1,10 +1,11 @@
 package guia.saboresapi.application.restaurante;
 
 
-import com.fiap.tc.restaurantes.application.handler.GlobalExceptionHandler;
-import com.fiap.tc.restaurantes.domain.exception.restaurante.RestauranteNotFoundException;
-import com.fiap.tc.restaurantes.domain.mapper.restaurante.RestauranteMapper;
-import com.fiap.tc.restaurantes.domain.usecase.restaurante.DeletarRestauranteUseCase;
+
+import guia.saboresapi.application.handler.GlobalExceptionHandler;
+import guia.saboresapi.domain.exception.restaurante.RestauranteNotFoundException;
+import guia.saboresapi.domain.mapper.restaurante.RestauranteMapper;
+import guia.saboresapi.domain.usecase.restaurante.DeletarRestauranteUseCase;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
