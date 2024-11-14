@@ -1,30 +1,76 @@
+#   services:
+#     app:
+#       image: 'sabores-api:dev'
+#       build:
+#         context: src/main/java/guia/saboresapi
+#         dockerfile: Dockerfile
+#       container_name: restaurantes-api
+#       depends_on:
+#         - db
+#       ports:
+#         - "8080:8080"
+#       environment:
+#         - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/sabores
+#         - SPRING_DATASOURCE_USERNAME=postgres
+#         - SPRING_DATASOURCE_PASSWORD=secret
+#         - SPRING_JPA_HIBERNATE_DDL_AUTO=create-drop
+#     db:
+#       image: postgres
+#       container_name: sabores-db
+#       environment:
+#         POSTGRES_USER: postgres
+#         POSTGRES_PASSWORD: secret
+#         POSTGRES_DB: sabores
+#       ports:
+#         - "5434:5434"
+#       volumes:
+#         - postgres_data:/var/lib/postgresql/data
+#
+#   volumes:
+#     postgres_data:
+
 services:
   app:
-    image: 'sabores-api:dev'
+    container_name: saboresapp
     build:
-      context: src/main/java/guia/saboresapi
+      context: .
       dockerfile: Dockerfile
-    container_name: restaurantes-api
-    depends_on:
-      - db
     ports:
       - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/sabores
-      - SPRING_DATASOURCE_USERNAME=postgres
-      - SPRING_DATASOURCE_PASSWORD=secret
-      - SPRING_JPA_HIBERNATE_DDL_AUTO=create-drop
+      SPRING_DATASOURCE_URL:  jdbc:postgresql://dpg-csr35g68ii6s73f3jlr0-a.oregon-postgres.render.com:5432/sabores
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: W53HlSLmzQjmTyMs0RG0KrDO0xNx5cpn
+    networks:
+      - sabores-network
   db:
-    image: postgres
-    container_name: sabores-db
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: secret
-      POSTGRES_DB: sabores
+    container_name: postgresdb
+    image: postgres:16.4-alpine3.20
     ports:
-      - "5434:5434"
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: jRcxLfBZXr1biYwqbsyx0rJh50dbAUlq
+      POSTGRES_DB: resturantdb_yi66
+    networks:
+      - restaurant-network
+    healthcheck:
+      # Use the CMD-SHELL command to check the health
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      # Set the interval to 10 seconds
+      interval: 10s
+      # Set the timeout to 5 seconds
+      timeout: 5s
+      # Set the retries to 5
+      retries: 5
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - resturantdb_yi66-data:/var/lib/postgresql/data
 
 volumes:
-  postgres_data:
+  resturantdb_yi66-data:
+
+networks:
+  restaurant-network:
