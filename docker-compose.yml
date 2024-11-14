@@ -41,7 +41,7 @@ services:
       db:
         condition: service_healthy
     environment:
-      SPRING_DATASOURCE_URL:  jdbc:postgresql://dpg-csr35g68ii6s73f3jlr0-a.oregon-postgres.render.com:5432/sabores
+      SPRING_DATASOURCE_URL:  /jdbc:postgresql://root:W53HlSLmzQjmTyMs0RG0KrDO0xNx5cpn@dpg-csr35g68ii6s73f3jlr0-a/sabores
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: W53HlSLmzQjmTyMs0RG0KrDO0xNx5cpn
     networks:
@@ -53,10 +53,10 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_USER: root
-      POSTGRES_PASSWORD: jRcxLfBZXr1biYwqbsyx0rJh50dbAUlq
-      POSTGRES_DB: resturantdb_yi66
+      POSTGRES_PASSWORD: W53HlSLmzQjmTyMs0RG0KrDO0xNx5cpn
+      POSTGRES_DB: sabores
     networks:
-      - restaurant-network
+      - sabores-network
     healthcheck:
       # Use the CMD-SHELL command to check the health
       test: ["CMD-SHELL", "pg_isready -U postgres"]
@@ -67,10 +67,10 @@ services:
       # Set the retries to 5
       retries: 5
     volumes:
-      - resturantdb_yi66-data:/var/lib/postgresql/data
+      - sabores-data:/var/lib/postgresql/data
 
 volumes:
-  resturantdb_yi66-data:
+  sabores-data:
 
 networks:
-  restaurant-network:
+  sabores-network:
