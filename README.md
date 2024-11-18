@@ -81,23 +81,20 @@ Adotamos o TDD como metodologia para o desenvolvimento e utilizamos o JUnit como
   <tr>
     <td align="center">
       <div>
-        <img src="https://avatars.githubusercontent.com/caiotfernandes" width="120px;" alt="Foto no GitHub" class="profile"/><br>
-          <b> Renato  </b><br>
+                  <b> Renato  </b><br>
             <a href="https://www.linkedin.com/in/caio-t%C3%A1rraga-fernandes-524373126/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
                   </div>
     </td>
 
    <td align="center">
       <div>
-        <img src="https://avatars.githubusercontent.com/davialvs" width="120px;" alt="Foto no GitHub" class="profile"/><br>
-          <b> Samuel  </b><br>
+                  <b> Samuel  </b><br>
              src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
       </div>
     </td>
 <td align="center">
       <div>
-        <img src="https://avatars.githubusercontent.com/LucasFrancoBN" width="120px;" alt="Foto no GitHub" class="profile"/><br>
-          <b> Renan   </b><br>
+                 <b> Renan   </b><br>
             <a href="https://www.linkedin.com/in/lucas-franco-barbosa-navarro-a51937221/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
                   </div>
     </td>
