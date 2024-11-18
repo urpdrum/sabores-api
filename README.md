@@ -82,15 +82,14 @@ Adotamos o TDD como metodologia para o desenvolvimento e utilizamos o JUnit como
     <td align="center">
       <div>
                   <b> Renato  </b><br>
-            <a href="https://www.linkedin.com/in/caio-t%C3%A1rraga-fernandes-524373126/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
+            <a href="https://www.linkedin.com/in/renato-pereira-drumond-a14987a9/)/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
                   </div>
     </td>
 
    <td align="center">
       <div>
                   <b> Samuel  </b><br>
-             src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
-      </div>
+                </div>
     </td>
 <td align="center">
       <div>
