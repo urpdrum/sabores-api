@@ -1,6 +1,6 @@
 # Restaurantes API
 
-### Proposta de projeto pós-graduação FIAP - Tech Challenge - fase 3
+### Tech Challenge - 3º Fase
 
 ### Tópicos
 
@@ -14,20 +14,20 @@
 ## Descrição do projeto
 
 <p align="justify">
-Este projeto apresenta o desenvolvimento de um novo sistema de Restaurantes, com funcionalidades de cadastro de restaurantes, reserva de mesas, avaliações e comentários, busca de restaurantes e gerenciamento de reservas.
+Um novo sistema de Restaurantes foi dessenvolvido neste projeto, contendo gerenciamento de reservas, avaliações e comentários, busca por restaurantes, cadastro de restaurantes e reserva de mesas.
 </p>
 
 ## Funcionalidades
 
-`Funcionalidade 1:` Cadastro de Restaurantes
+`=>:` Cadastro de Restaurantes
 
-`Funcionalidade 2:` Reserva de Mesas
+`=>:` Reserva de Mesas
 
-`Funcionalidade 3:` Avaliações e Comentários
+`=>:` Avaliações e Comentários
 
-`Funcionalidade 4:` Busca de Restaurantes
+`=>:` Busca de Restaurantes
 
-`Funcionalidade 5:` Gerenciamento de Reservas
+`=>:` Gerenciamento de Reservas
 
 
 ## Ferramentas utilizadas
@@ -60,16 +60,16 @@ Este projeto apresenta o desenvolvimento de um novo sistema de Restaurantes, com
 </div>
 
 
-## Acesso ao projeto
+## Acessos
 
-Você pode [acessar o código fonte do projeto](https://github.com/Grupo23TC/restaurantes-api).
+Você pode [acessar o código fonte do projeto](https://github.com/urpdrum/sabores-api).
 
 ## Sobre a aplicação
 
 A aplicação foi arquitetada através dos princípios de Clean Archtecture e foi publicada para ser consumida como uma API Rest.
 
 O sistema foi implantado utilizando a plataforma gratuita https://render.com/ em conjunto com o https://supabase.com/ para implantarmos o banco de dados Postgres, você pode acessar o swagger da aplicação para ter acesso a todos os endpoints em:
-https://restaurantes-api.onrender.com/restaurantes-doc.html
+https://sabores-api.onrender.com/sabores-doc.html
 
 ## Testes
 
@@ -82,33 +82,24 @@ Adotamos o TDD como metodologia para o desenvolvimento e utilizamos o JUnit como
     <td align="center">
       <div>
         <img src="https://avatars.githubusercontent.com/caiotfernandes" width="120px;" alt="Foto no GitHub" class="profile"/><br>
-          <b> Caio Fernandes  </b><br>
+          <b> Renato  </b><br>
             <a href="https://www.linkedin.com/in/caio-t%C3%A1rraga-fernandes-524373126/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
-            <a href="https://github.com/caiotfernandes" alt="Github"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
-      </div>
+                  </div>
     </td>
 
    <td align="center">
       <div>
         <img src="https://avatars.githubusercontent.com/davialvs" width="120px;" alt="Foto no GitHub" class="profile"/><br>
-          <b> Davi Alves  </b><br>
-            <a href="https://www.linkedin.com/in/davi-alves-dev/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
-            <a href="https://github.com/davialvs" alt="Github"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
+          <b> Samuel  </b><br>
+             src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
       </div>
     </td>
 <td align="center">
       <div>
         <img src="https://avatars.githubusercontent.com/LucasFrancoBN" width="120px;" alt="Foto no GitHub" class="profile"/><br>
-          <b> Lucas Franco   </b><br>
+          <b> Renan   </b><br>
             <a href="https://www.linkedin.com/in/lucas-franco-barbosa-navarro-a51937221/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
-            <a href="https://github.com/LucasFrancoBN" alt="Github"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
-      </div>
+                  </div>
     </td>
   <td align="center">
-      <div>
-        <img src="https://avatars.githubusercontent.com/lucasctteixeira" width="120px;" alt="Foto no GitHub" class="profile"/><br>
-          <b> Lucas Teixeira </b><br>
-            <a href="https://www.linkedin.com/in/lucas-c-teixeira/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
-            <a href="https://github.com/lucasctteixeira" alt="Github"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
-      </div>
-    </td>
+      
