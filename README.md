@@ -73,7 +73,7 @@ https://sabores-api.onrender.com/sabores-doc.html
 
 ## Testes
 
-Adotamos o TDD como metodologia para o desenvolvimento e utilizamos o JUnit como principal ferramenta para os testes unitários e de integração. Contamos também com ferramentas como o Cucumber para aplicarmos o BDD e implementamos os testes não funcionais de carga e performance com o JMeter.
+Nos testes, a gente usa TDD (Test-Driven Development) no desenvolvimento e JUnit para os testes unitários e de integração. Também usamos Cucumber para BDD (Behavior-Driven Development) e JMeter para os testes de carga e performance (os não-funcionais).
 
 ## Desenvolvedores
 
